@@ -13,15 +13,13 @@ function createWindow () {
     tray = new Tray(`${__dirname}/icon.png`);
     tray.setTitle(` ${version} `);
 
-    const contextMenu = Menu.buildFromTemplate([
-        {
-            label: 'Quit', click() {
-                app.quit();
-            }
+    const contextMenu = Menu.buildFromTemplate([{
+        label: 'Quit', click() {
+            app.quit();
         }
-    ]);
+    }]);
 
-    tray.setToolTip('This is my application.');
+    tray.setToolTip('ReleaseDate');
     tray.setContextMenu(contextMenu);
 }
 
