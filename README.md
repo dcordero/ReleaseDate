@@ -9,7 +9,7 @@ Release dates indicator that shows in the status bar the current date with the f
 
 # Download and Install
 
-You can download the latest version of this App from [here]( https://github.com/dcordero/ReleaseDate/releases/download/1.0.0/ReleaseDate.app.zip)
+You can download the latest version of this App from [here]( https://github.com/dcordero/ReleaseDate/releases/download/1.0.1/ReleaseDate.app.zip)
 
 To install it just copy the App to the `/Application` folder of your macOS.
 
