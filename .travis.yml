@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode10.2
+install: true
+rvm:
+  - 2.4.1
+script:
+  - swiftlint
